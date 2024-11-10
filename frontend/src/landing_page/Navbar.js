@@ -47,9 +47,9 @@ function Navbar() {
                     type="search"
                     placeholder="Search"
                     aria-label="Search"
-                    style={{ width: "300px", backgroundColor: "white" }}
+                    style={{ width: "300px", backgroundColor: "white" ,borderRadius:"27px"}}
                 />
-                <button className="btn" type="submit" style={{ backgroundColor: '#96e856', color: 'black', height: '37.6px', justifyContent: 'center', padding: '9px', marginBottom: '5px' }}>
+                <button className="btn" type="submit" style={{ backgroundColor: '#96e856', color: 'black', height: '50px', justifyContent: 'center',borderRadius:"10px", padding: '9px', marginBottom: '5px' }}>
                     Search
                 </button>
             </form>

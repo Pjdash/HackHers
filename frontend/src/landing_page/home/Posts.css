@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #000; /* Black background for the container */
 }
 
 .btn-create {
@@ -32,10 +33,10 @@
 }
 
 .card {
-    background-color: #f0f0f0; /* Grey background for each post box */
-    border: 1px solid #ccc;   /* Light border around the post */
+    background-color: #000; /* Black background for each post box */
+    border: 1px solid #333;   /* Darker border to differentiate from black background */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     padding: 20px;
     width: 100%;
 }
@@ -57,13 +58,16 @@
 
 .card .username {
     font-weight: bold;
-    color: #333; /* Darker gray for username */
+    color: #ccc; /* Light gray for username to contrast with black background */
 }
 
 .card p {
-    color: #555; /* Slightly darker gray for post text */
+    color: #ddd; /* Light grey for post text */
     font-size: 14px;
     margin-top: 5px;
+    background-color: #f0f0f0; /* Light grey background for the content box */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .image-container {
