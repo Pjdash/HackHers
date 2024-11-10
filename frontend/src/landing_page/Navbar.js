@@ -34,8 +34,10 @@ function Navbar() {
             }}
         >
             {/* Left Section: Logo */}
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#" style={{color:"white",fontStyle:"inherit"}}>
+               
                 <img src="media/images/logo.png" style={{ width: "50px" }} alt="Logo" />
+                 EQUINEX
             </a>
 
             {/* Center Section: Search Bar */}
